@@ -18,7 +18,7 @@ class DB {
 			self::$con->setAttribute( PDO::ATTR_PERSISTENT, false );
 
 		} catch (PDOException $e) {
-			echo "Could not connect to database ."; exit;
+			echo "Could not connect to database."; exit;
 		}
 
 	}

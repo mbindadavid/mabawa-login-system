@@ -1,7 +1,4 @@
 <?php 
-
-    $past = time() - 00;
-
 	session_start();
 	session_destroy();
 	session_write_close();

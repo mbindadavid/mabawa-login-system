@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `login_course`
 --
-CREATE DATABASE IF NOT EXISTS `login_mabawa` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `login_mabawa`;
+CREATE DATABASE IF NOT EXISTS `login_course` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `login_course`;
 
 -- --------------------------------------------------------
 
