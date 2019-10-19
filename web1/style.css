@@ -27,7 +27,7 @@
 }
 #nav-bar ul li a:hover
 {
-	color: #007bff!importrant;
+	color: #007bff!important;
 
 }
 .navbar
@@ -36,11 +36,11 @@
 }
 .navbar-toggler
 {
-	border: none!importrant;
+	border: none!important;
 }
 .nav-link
 {
-	color: #555!importrant;
+	color: #555!important;
 	font-weight: 600;
 	font-size: 16px;
 }
@@ -87,6 +87,33 @@
 }
 .progress
 {
-	border-radius: 16px !importrant;
+	border-radius: 16px !important;
 	margin-bottom: 20px;
+}
+/*--------------------services-------*/
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/pc3.jpg);
+
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+#services h1::after
+{
+	content: '' ;
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
 }
